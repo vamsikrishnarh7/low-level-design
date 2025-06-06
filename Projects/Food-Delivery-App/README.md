@@ -23,4 +23,6 @@ There will be two type of orders in our design
 2. Pick up - user himself comes to the restaurant and pick ups the food
 
 Then user selects payment method (UPI, Credit card, Net banking etc..)
-user will get a notification after placing the order
+user will get a notification after placing the order  
+## UML Diagram
+<img src="images/food-delivery-uml.drawio.png" >
