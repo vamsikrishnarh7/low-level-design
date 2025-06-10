@@ -12,7 +12,7 @@ If we keep fly() method in Robot class itself then all non-flyable robots will a
 Therefore we introduce new interface which deals with flyable robots  
 <img src="images/robot-flyable.png" />  
 Lets assume we have new kind of robots which use Jets to fly. All these Jet robots needs to overwrite the fly() method. Instead we introduce new interfaces called FlyWithWings and FlyWithJet  
-<imag src="images/robots-heirarchy.jpg" />  
+<img src="images/robots-heirarchy.jpg" />  
 Now we have brand new kind of robots which can't talk etc.
 Observe the heirarchy from our discussion above. This becomes complex with as new kind of robots comes  
 
