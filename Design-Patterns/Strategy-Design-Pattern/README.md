@@ -18,7 +18,12 @@ Observe the heirarchy from our discussion above. This becomes complex with as ne
 
 **The solution to inheritance is not more inheritance**  
 The solution is Strategy Pattern.  
-**Definition: Defines a family of algorithm, put them into separate classes so that they can be changed at run time**
+**Definition: Defines a family of algorithm, put them into separate classes so that they can be changed at run time**  
+
+Design patterns says that some part of the code changes frequently and some part of code doesn't change at all, so separate the code which change frequently from the code which doesn't change  
+
+In Robot class we have seen that the code for talk(), walk() and fly() is changing for new kind of robot  
+So we separate code for talk(), walk() and fly() from the projection() method code and put them in separate classes  
 
 
 
